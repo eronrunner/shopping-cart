@@ -1,0 +1,17 @@
+
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.list-items .item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.list-items .item img{
+    height: 200px;
+}

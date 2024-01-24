@@ -1,0 +1,84 @@
+.cart-page {
+    width: 80%;
+    margin: auto;
+    float: left;
+}
+
+.cart-page .title {
+    text-align: center;
+    margin: 10px;
+}
+
+.cart-page .product-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cart-page .cart-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cart-page .cart-item .col-0 {
+    text-align: left;
+    word-wrap: break-word;
+    width: 200px;
+}
+
+.cart-page .cart-item .col-0 img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-page .cart-item .col-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cart-page .cart-item .col-1 .quantity {
+    text-align: center;
+    margin: auto;
+}
+
+.cart-page .cart-item .col-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cart-page .cart-item .col-2 .price {
+    text-align: center;
+    margin: auto;
+}
+
+.cart-page .cart-item .col-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cart-page .cart-item .col-3 .func {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+.cart-page .cart-item .col-3 .func .remove {
+    text-align: center;
+    background-color: red;
+    padding: 5px;
+    border: 0px;
+}
+
+.cart-page .cart-item .col-3 .func .remove:hover {
+    background-color: rgb(206, 55, 55);
+    cursor: pointer;
+}
+
+.cart-page .total {
+    text-align: right;
+    margin: 10px;
+}

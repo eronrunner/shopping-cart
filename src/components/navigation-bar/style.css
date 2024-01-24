@@ -1,0 +1,34 @@
+.topnav {
+    background-color: aquamarine;
+    display: flex;
+}
+
+.flex-filled {
+    height: 100px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.scale-h-100 {
+    height: 100%;
+}
+
+
+.flex-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-items a {
+    display: flex;
+    height: 100px;
+    padding: 5px;
+    align-items: center;
+}
+
+.flex-items a:hover {
+    background-color: rgb(70, 253, 192);
+}
+
